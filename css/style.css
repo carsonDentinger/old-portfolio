@@ -1,0 +1,76 @@
+body{
+    background-image: url("/images/jay-mantri-TFyi0QOx08c-unsplash.jpg");
+}
+
+a{
+    color: none;
+    text-decoration: none;
+}
+h1{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-size: 4rem;
+}
+
+h2{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-style: italic;
+}
+
+img{
+    border: .5rem;
+    border-color: black;
+    height: 20rem;
+    width: auto;
+}
+
+.header{
+    background-color: #3f3d47;
+}
+
+#navBar{
+    color: white;
+}
+
+footer{
+    color: white;
+    background-color: #3f3d47;
+}
+
+#aboutMe{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-style: italic;
+}
+
+#projectTitle{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-style: italic;
+}
+
+#VPStitle{
+    color:black;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-style: italic;
+    
+}
+
+#RStitle{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-style: italic;
+}
+
+#TBDtitle{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-style: italic;
+}
+
+.generalText{
+    font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif; 
+}
+
+#projectHyperlink{
+    color: white;
+}
+
+#VPScolor{
+    color: black;
+}

@@ -4,11 +4,82 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta http-equiv="X-UA-Compatible" content="ie=edge">
-            <title>carsonDentingerPortfolio</title>
+            <link rel="stylesheet" href="/css/style.css">
+            <link rel="stylesheet" href="/css/layout.css">
+            <title>Carson Dentinger Portfolio</title>
         </head>
-        <body>
-            <h1>
-                My name is Carson, behold my achievements for they are many
-            </h1>
+        <body>  
+            <header class="header">
+                    <nav>
+                        <ul id="navBar">
+                            <li class="navItem"><a id="projectHyperlink" href="#projectTitle">Projects</a></li>
+                            <li class="navItem" ><a href="https://github.com/carsonDentinger" target="_blank"><img src="images/25231.png" id="gitHubLogo"></a></li>
+                            <li class="navItem" ><a href="https://www.linkedin.com/in/carson-dentinger-539433129/" target="_blank"><img src="images/linkedin-logo-pngrepo-com.png" id="linkedInLogo"></a></li>
+                        </ul>
+                    </nav>
+            </header>
+            <section class="container"> 
+            <div class="grid1">        
+                <h1 id= "nameTag"> 
+                Carson <br> Dentinger
+                </h1>
+                <h2 id="jobTitle">
+                    Software Developer
+                </h2>
+                <img src=images/headshot.jpeg id="headshot">
+            </div>
+           
+                <h3 id="aboutMe"> About Me </h3>
+                    <p class="generalText">Hello! My name is Carson Dentinger and I am a full stack software developer with a passion for team-based collaboration and hands-on learning. 
+                        Experienced in Java, HTML, CSS (Flex/Grid), Spring, Git, and Javascript. I graduated with a B.S. in Health Sciences 
+                        from Ohio State University School of Health and Rehabilation Sciences with a minor in Spanish. Prior to beginning my journey in computer science
+                        I worked for many years in healthcare settings in both an administrative capacity as well as in the provision of hands-on patient 
+                        care. I am a musician, avid hiker, and a lifelong learner. I live and work in Columbus, OH.</p>
+                
+                <h3 id="projectTitle">
+                        Projects
+                </h3>
+                    
+                <ul id="listContainer">
+                            <br>
+                    <div class="card">
+                        <li id="VPS">
+                            <h3 id="VPStitle"><a id="VPScolor" href="https://github.com/orgs/2021-Fall-Cohort/teams/mammoth-reloaded" target="_blank">Virtual Pet Shelter</a></h3>
+                            <article class="generalText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum debitis facilis, tempore quis sed id ratione culpa mollitia saepe accusamus nulla. Tenetur ut veritatis quam doloremque earum distinctio. Sunt, numquam?</article>
+                            
+                            <img src="images/Screenshot (3).png" id="VPSpic">
+                            
+                        </li>
+                    </div>
+                        <br>
+                    <div class="card";>
+                        <li id="RS">
+                            <h3 id="RStitle">Review Site</h3>
+                            <article class="generalText">Built a fully functional review website for city reviews using Spring and MVC concepts. MOre details later as I wrap it up down the line</article>
+                            <img id="RSpic" src="images/tina-dawson-jAWfDKxRraI-unsplash.jpg">
+                        </li>
+                    </div>
+                        <br>
+                    <div class="card">    
+                        <li id="TBD">
+                            <h3 id="TBDtitle">TBD Project</h3>
+                            <article class="generalText"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum repellendus facere, veritatis rerum culpa officiis, vitae voluptates, fugiat omnis sint esse quos earum non beatae modi excepturi quaerat illum numquam?</article>
+                            <img id="TBDpic" src="images/tina-dawson-jAWfDKxRraI-unsplash.jpg">
+                        </li>
+                    </div>
+                </ul> 
+        </section>        
         </body>
+
+        <footer>
+            <p id="contact">CONTACT</p>
+            <div >
+                <ul class="footerNav">
+                    <li class="footLinks">carson.dentinger@gmail.com</li>
+                    <li class="footerLogo"><a href="https://github.com/carsonDentinger" target="_blank"><img src="images/25231.png" id="gitHubLogo"></a></li>
+                    <li class="footerLogo"><a href="https://www.linkedin.com/in/carson-dentinger-539433129/" target="_blank"><img src="images/linkedin-logo-pngrepo-com.png" id="linkedInLogo"></a></li>
+                    <li class="footLinks">(614) 420-6602</li>
+                </ul>
+            </div>  
+        </footer>
     </html>
